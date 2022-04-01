@@ -1,0 +1,7 @@
+::1 - - [31/Mar/2022:10:21:09 +0000] "GET /users/add HTTP/1.1" 200 91 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36"
+::ffff:127.0.0.1 - - [01/Apr/2022:06:05:02 +0000] "POST /users/add HTTP/1.1" 200 100 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [01/Apr/2022:06:12:10 +0000] "POST /users/add HTTP/1.1" 500 1221 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [01/Apr/2022:06:14:34 +0000] "POST /users/add HTTP/1.1" 200 91 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [01/Apr/2022:06:20:53 +0000] "POST /users/add HTTP/1.1" 200 215 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [01/Apr/2022:06:30:49 +0000] "POST /users/update HTTP/1.1" 404 1184 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [01/Apr/2022:06:33:18 +0000] "GET /users HTTP/1.1" 200 91 "-" "vscode-restclient"
